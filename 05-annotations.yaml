@@ -1,0 +1,11 @@
+apiVersion: v1 #annotations are used to select special charectors & outside resources
+kind: Pod
+metadata:
+  name: annotations
+  annotations:
+    build URL: https://hub.docker.com/repositories/parijatha2025
+    imageregistry: "https://hub.docker.com/"
+spec:
+  containers:
+  - name: nginx
+    image: nginx

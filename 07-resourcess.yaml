@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+spec:
+  containers:
+  - name: app
+    image: parijatha2025/frontend:1.0.0
+    resources:
+      requests: # softlink
+        memory: "64Mi"
+        cpu: "250m"
+      limits: # hardlink
+        memory: "128Mi"
+        cpu: "500m"

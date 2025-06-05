@@ -1,0 +1,17 @@
+apiVersion: v1   #run time variables
+kind: Pod
+metadata:
+  name: env
+  labels:
+    purpose: demonstrate-envars
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    env:
+    - name: DEMO_GREETING
+      value: "Hello from the environment"
+    - name: TRAINER
+      value: "Shivakumar Reddy"
+    - name: DEMO_FAREWELL
+      value: "Such a sweet sorrow"

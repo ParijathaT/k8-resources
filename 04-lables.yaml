@@ -1,0 +1,12 @@
+apiVersion: v1 #lables are used to access internal resourcess
+kind: Pod
+metadata:
+  name: labels
+  labels:
+    project: expense
+    component: backend 
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
