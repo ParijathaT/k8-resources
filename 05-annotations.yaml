@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: annotations
   annotations:
-    build URL: "https://jenkins.com/expense/job/backend/23"
+    build-url: https://hub.docker.com/repositories/parijatha2025
     imageregistry: "https://hub.docker.com/"
 spec:
   containers:
