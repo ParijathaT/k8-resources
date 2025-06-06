@@ -19,12 +19,12 @@ spec:
         app: nginx
         tier: frontend
         purpose: deployment
-  spec:
-    containers:
-    - name: nginx
-      image: parijatha2025/deployment:2.0
-      ports:
-      - containerPort: 80
+spec:
+  containers:
+  - name: nginx
+    image: parijatha2025/deployment:2.0
+    ports:
+    - containerPort: 80
 
 ---
 apiVersion: v1
