@@ -27,7 +27,7 @@ metadata:
     environment: dev
     version: "1.0.0"
     demo: np
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
