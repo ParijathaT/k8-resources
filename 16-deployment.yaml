@@ -13,12 +13,12 @@ spec:
       app: nginx
       tier: frontend
       purpose: deployment
-template:
-  metadata:
-    labels:
-      app: nginx
-      tier: frontend
-      purpose: deployment
+  template:
+    metadata:
+      labels:
+        app: nginx
+        tier: frontend
+        purpose: deployment
   spec:
     containers:
     - name: nginx
@@ -41,4 +41,4 @@ spec:
     - protocol: TCP
       port: 80 # service port
       targetPort: 80
-      nodeport: 30009
+      nodePort: 30009
