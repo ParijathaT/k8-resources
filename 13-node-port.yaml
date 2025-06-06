@@ -10,10 +10,10 @@ spec:
     version: "1.0.0"
     demo: np
   ports:
-    - protocol: TCP
-      port: 80 # service port
-      targetPort: 80
-      nodeport: 30007
+  - protocol: TCP
+    port: 80 # service port
+    targetPort: 80
+    nodeport: 30007
 
 ---
 apiVersion: v1
