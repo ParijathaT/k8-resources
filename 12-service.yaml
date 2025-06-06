@@ -23,7 +23,7 @@ metadata:
     component: backend 
     environment: dev
     version: "1.0.0"
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
