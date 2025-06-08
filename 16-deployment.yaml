@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: parijatha2025/deployment:2.0
+        image: parijatha2025/deployment:1.0
         ports:
         - containerPort: 80
 
